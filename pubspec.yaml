@@ -1,6 +1,7 @@
 name: check_network_connection
 description: "A Flutter package that monitors internet connectivity and displays customizable notifications for offline scenarios, enhancing user experience by guiding users to reconnect."
 version: 0.0.2
+homepage: "https://github.com/cuongbo28032001/wezen_lib/tree/develop"
 Repository (Github): "https://github.com/cuongbo28032001/wezen_lib/tree/develop"
 
 environment:
