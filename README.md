@@ -14,12 +14,12 @@ Add `check_network_connection` to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  check_network_connection: ^0.0.1
+  check_network_connection: ^0.0.2
 ```
 
 ## Contact
 
-For any questions or support, please open an issue on the [GitHub repository](https://github.com/username/check_network_connection).
+For any questions or support, please open an issue on the [GitHub repository](https://github.com/cuongbo28032001/wezen_lib/tree/develop) or [Email](cuongbo28032001@gmail.com).
 
 ## License
 

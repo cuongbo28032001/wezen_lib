@@ -50,7 +50,8 @@ class NetworkConnectionDialog extends GetxService {
   @override
   void onInit() {
     super.onInit();
-    _connectivitySubscription = _connectivity.onConnectivityChanged.listen(updateConnectionStatus);
+    _connectivitySubscription =
+        _connectivity.onConnectivityChanged.listen(updateConnectionStatus);
   }
 
   @override
@@ -89,13 +90,16 @@ class NetworkConnectionDialog extends GetxService {
               Get.back();
               isShow.value = false;
               BaseDialog.showGenerateDialog(
-                  context: Get.context!, childWidget: const CircularProgressIndicator(), isAllowCloseOutSize: false);
+                  context: Get.context!,
+                  childWidget: const CircularProgressIndicator(),
+                  isAllowCloseOutSize: false);
               Future.delayed(const Duration(seconds: 3), () {
                 Get.back();
                 updateConnectionStatus(result0);
               });
             },
-            callbackSetting: () => AppSettings.openAppSettings(type: AppSettingsType.device),
+            callbackSetting: () =>
+                AppSettings.openAppSettings(type: AppSettingsType.device),
           ),
           allowWillPop: false,
           isAllowCloseOutSize: false,
